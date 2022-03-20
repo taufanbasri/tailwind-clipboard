@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply py-3 text-white rounded-full shadow-md px-7;
+}
+
+.btn-cyan {
+    @apply bg-strong-cyan;
+}
+
+.btn-light-blue {
+    @apply bg-light-blue;
+}
