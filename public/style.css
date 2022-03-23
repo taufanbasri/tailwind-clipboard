@@ -556,6 +556,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 80px;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -651,6 +656,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 128px;
   }
 
+  .md\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -674,10 +684,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 1024px) {
   .lg\:flex-row {
     flex-direction: row;
-  }
-
-  .lg\:flex-col {
-    flex-direction: column;
   }
 
   .lg\:items-start {
